@@ -24,7 +24,7 @@ class DishModelSerializer(serializers.ModelSerializer):
         fields="__all__"
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-        model=Dishes
+        model=User
         fields=[
             "first_name",
             "last_name",
